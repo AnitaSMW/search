@@ -1,0 +1,176 @@
+
+
+
+
+@media (min-width; 600px) {
+    body{
+        background-color:#fffafa ;
+    }
+}
+@media(max-width: 599){
+    body{
+        background-color:white;
+    }
+}
+
+.header-container {
+    border-width: 2px;
+    float: right;
+    width: 100%;
+    text-align:right;
+}
+
+.navbar {
+    display:flex;
+    flex-flow:row-reverse;
+    list-style:none;
+     background-color: grey;    
+ }
+ .navbar ul {
+     listyle: none:
+     background: orange;
+     padding:0;
+     margin: 0:
+     text align:right;
+ }
+.navbar li
+{
+    display: inline-block;
+
+}
+.navbar a {
+    text-decoration: none;
+    color:lightgrey;
+    width: 200px;
+    display:block;   
+
+}
+.navbar a:hover {
+    background: orange;
+}
+
+.container {
+    text-align:center;
+    margin-top:300px;
+}
+.google-img {
+    height: 200px;
+    width:300px;
+    margin-bottom: 20px;
+}
+.search {
+    width:640px;
+    margin: 0 auto;
+    border:1px solid gray;
+    border-radius: 25px;
+}
+
+.search-bar {
+    width: 500px;
+    margin-top:20px;
+    padding-top:15px; 
+    height:46;
+    font-size:18px;
+    border:none;
+    margin-bottom:15px;
+}
+
+.btn-container {
+    margin-top:2%;
+    background:#F8F9FA;
+}
+
+.search-btn {
+    height: 40px;
+    border: none;
+    color:black;
+    background: #F8f9fa;
+
+
+}
+.gsearch-btn {
+    width:127;
+    height: 36px;
+    padding: 0px 16px;
+    border:none:
+    background: #F8f9fa;
+}
+
+.feelinglucky-btn
+{
+    width:142 40px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    background-color:#f8f9fa;
+}
+
+.search-btn:hover{
+    background-color:orange;
+    color:
+    border:1px solid lightgray;
+}
+
+.languages {
+    color:black;
+    text align: center;
+    margin-top: 20px;
+    
+}
+
+a:link {
+    color:blue;
+}
+
+a: visited {
+    color: #609;
+}
+a { 
+    text-decoration: none;
+}
+
+
+.footerContainer
+{
+    border-width: 2px;
+}
+
+.navbarbottom {
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    Background-color: grey;
+
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0 0 0 27;
+overflow: hidden;
+background-color: grey;
+}
+
+ul li {
+  list-style: none;
+  display:inline-block;
+  float:left;
+  line-height: 25px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+
+    color: lightgrey;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(250, 204, 104);
+ }  

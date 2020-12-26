@@ -1,0 +1,132 @@
+
+
+.topnav {
+    background-color:#f1f1f1;
+    overflow:hidden;  
+    }
+    .topnav a {
+     float: left;
+     color:black;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 18px; 
+}
+
+.topnav a:hover {
+    background: orange;
+    color:black;
+}
+.topnav a.active {
+    background-color:blue;
+    color:white;
+}
+
+.container {
+    margin: 0 40px;
+}
+
+.topnav-right {
+    float: right;
+}
+
+h4  {
+    color:#D93025;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+hr  {
+   color: grey; 
+}
+h5  {
+    font-weight: normal;
+    font-color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+   
+
+.main-header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 200px 575px auto;
+    column-gap: 10px;
+    row-gap:10px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.search-label{
+    font-size:16px;
+    color:gray
+}
+.input{
+    width: 525px;
+    height:25px;
+}
+.num-input{
+    width: 260;
+    height: 35;
+}
+.heading{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+button[type="submit"]{
+    background-color: #4d90fe;
+    width:120px;
+    color:white;
+    height:50px;
+    padding:0px 12px;
+    border-radius: 5px;
+    margin-left:75%;
+    padding: 0px; 12px;
+    font-size: 13px;   
+    }
+    
+.navbarbottom {
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    Background-color: grey;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0 0 0 27;
+overflow: hidden;
+background-color: #f1f1f1;
+}
+
+ul li {
+  list-style: none;
+  display:inline-block;
+  float:left;
+  line-height: 25px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(250, 204, 104);
+ }  
+
